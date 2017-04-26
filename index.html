@@ -12,46 +12,58 @@
 
   </head>
   <body>
-   <div class="container">
-     <div class="panel panel-primary">
-       <div class="panel-heading">
-         <h2>Triangle Tracker</h2>
-       </div>
-       <form class="form-horizontal" action="index.html" method="post">
-         <div class="form-group">
-           <label for="sidea" class="control-label col-sm-2">Side A length</label>
-           <div class="col-sm-10">
-             <input type="text" id="sidea" value="" class="form-control" placeholder="Enter side A length:">
-           </div>
-         </div>
-         <div class="form-group">
-           <label for="sideb" class="control-label col-sm-2">Side B length</label>
-           <div class="col-sm-10">
-             <input type="text" id="sideb" value="" class="form-control" placeholder="Enter Side B length:">
-           </div>
-         </div>
-         <div class="form-group">
-           <label for="sidec" class="control-label col-sm-2">Side C length</label>
-           <div class="col-sm-10">
-             <input type="text" id="sidec" value="" class="form-control" placeholder="Enter Side C length:">
-           </div>
-         </div>
-         <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-default">Submit</button>
-          </div>
-         </div>
+    <div class="container">
+      <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-6">
 
-       </form>
-     </div>
-     <div class="panel panel-danger">
-       <div class="panel-heading">
-         <h4>Results</h4>
-       </div>
-       <div class="output">
+              <!-- <h2>Triangle Tracker</h2> -->
+              <img src="img/logo.png" alt="">
 
-       </div>
-     </div>
-   </div>
+            <form class="form-horizontal" action="index.html" method="post">
+              <div class="form-group">
+                <label for="sidea" class="control-label col-sm-8">Side A length</label>
+                <div class="col-sm-4">
+                  <input type="number" id="sidea" value="" class="form-control" placeholder="0">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="sideb" class="control-label col-sm-8">Side B length</label>
+                <div class="col-sm-4">
+                  <input type="number" id="sideb" value="" class="form-control" placeholder="0">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="sidec" class="control-label col-sm-8">Side C length</label>
+                <div class="col-sm-4">
+                  <input type="number" id="sidec" value="" class="form-control" placeholder="0">
+                </div>
+              </div>
+              <div class="form-group">
+               <div class="col-sm-offset-6 col-sm-6">
+                 <button type="submit" class="btn btn-default">Check</button>
+               </div>
+              </div>
+
+            </form>
+
+        </div>
+        <div class="col-md-6" class="results">
+              <h4>Results</h4>
+            <img src="" alt="" id="tri" class="img-responsive">
+            <div class="output">
+
+            </div>
+
+         </div>
+      </div>
+        <div class="footer">
+          <h3>By Mulu Kadan</h3>
+
+        </div>
+      </div>
+
+    </div>
+
   </body>
 </html>
