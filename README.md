@@ -1,11 +1,10 @@
-# Ping pong
+# Triangle Tracker
+This  a web page that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all. Here are the definitions of each possibility:
 
-It is a site which allows a user to enter a number, then return output from number 1 to the user's entered number as follows:
-
-  - Numbers divisible by 3, it outputs 'Ping'.
-  - Numbers divisible by 5, it outputs 'Pong'.
-  - Numbers divisible by 3 & 5, it outputs 'PingPong'.
-
+- Equilateral: All sides are equal.
+- Isosceles: Exactly 2 sides are equal.
+- Scalene: No sides are equal.
+- NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side.
 # Author:
 
   ## Mulu Kadan
